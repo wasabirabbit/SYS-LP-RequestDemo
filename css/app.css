@@ -297,6 +297,13 @@ button.button-error {
 	max-width: 100%;
 }
 
+#formHolder {
+	min-height: inherit;
+	height: inherit;
+	overflow: inherit;
+	background-color: #ffffff;	
+}
+
 
 #descHolder {
 	height: auto;
