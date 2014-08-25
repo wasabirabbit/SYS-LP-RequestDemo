@@ -54,6 +54,12 @@ p {
 #descHolder {
 	height: 100%;
 }
+#imacImg {
+	position: absolute;
+	right: 0;
+	width: 350px;
+	max-width: none;
+}
 
 .row {
 	margin-left: 8%;
