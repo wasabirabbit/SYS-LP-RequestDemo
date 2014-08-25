@@ -44,7 +44,7 @@ p {
 	color: #ffffff;
 }
 .text-grey {
-	color: #A7A9AB;
+	color: #4D5456;
 }
 
 #formHolder {
@@ -58,11 +58,13 @@ p {
 	position: absolute;
 	right: 0;
 	width: 350px;
+	height: 300px;
 	max-width: none;
 }
 
 .row {
-	margin-left: 8%;
+	/*margin-left: 8%;*/
+	height: 100%;
 }
 
 #lrg-logo {
@@ -99,10 +101,12 @@ span.instructions {
 	opacity: 0.95;
 	margin-bottom: 0;
 }
-
+.c-z {
+	clear: both;
+}
 .content-panel {
 	border: none;
-	padding: 0.5rem 3.5rem 2em;
+	padding: 0 3.5rem 2em;
 	background-color: #f36c21;
 	opacity: 0.95;
 	margin-bottom: 0;
@@ -247,14 +251,25 @@ button.button-error {
 		background-size: 100%;*/
 	}
 
+#imacImg {
+	position: relative;
+	right: inherit;
+	width: inherit;
+	max-width: 100%;
+}
+
+
+#descHolder {
+	height: auto;
+}
 
 	h1 {
 	   font-size: 1em;
 	}
 
 	.columns {
-		padding-left: 0;
-		padding-right: 0;
+		/*padding-left: 0;
+		padding-right: 0;*/
 	}
 
 	.header-panel {
@@ -269,11 +284,11 @@ button.button-error {
 	.content-panel {
 		width: 100%;
 		border: none;
-		padding: 2rem 2rem 1rem 2rem;
+		padding: inherit;
 		background: #FFFFFF;
 		opacity: 1;
 		margin-bottom: 0;
-		margin-top: 150px;
+		/*margin-top: 150px;*/
 		height: auto;
 	}
 
