@@ -95,6 +95,7 @@ p {
 	background-color: #ffffff;
 	border: 1px solid #F26C21;
 }
+
 #submitBtn:hover, #submitBtn.button-off {
 	color: #FFFFFF;
 	background-color: #F26C21;
@@ -304,6 +305,13 @@ button.button-error {
 	background-color: #ffffff;	
 }
 
+#submitBtn.button-off {
+	color: #F26C21;
+	text-transform: uppercase;
+	font-size: .75em;
+	background-color: #ffffff;
+	border: 1px solid #F26C21;
+}
 
 #descHolder {
 	height: auto;
@@ -373,7 +381,7 @@ button.button-error {
 		background-color: #f36c21;
 		border: 1px solid #f36c21;
 		margin-top: -27px;
-		padding: 0 0.5625rem 0.5625rem;
+		padding: 2.25rem 0.5625rem 0.5625rem;
 		font-style: normal;
 		font-size: 0.8em;
 	}	
@@ -435,9 +443,9 @@ button.button-error {
 	}
 
 	button.button-off, button.button-off:focus {
-		background: url('../img/btn-download-sml-off.png') transparent;
+		/*background: url('../img/btn-download-sml-off.png') transparent;
 		height: 67px;
-		width: 199px;
+		width: 199px;*/
 		outline: none;
 		margin-bottom: 0;
 	}
