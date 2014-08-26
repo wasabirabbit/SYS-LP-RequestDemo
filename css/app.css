@@ -265,9 +265,9 @@ button.button-off, button.button-off:focus {
 }
 
 button.button-error {
-	background: url('../img/btn-download-lrg-on-2.png') transparent no-repeat;
+	/*background: url('../img/btn-download-lrg-on-2.png') transparent no-repeat;
 	height: 50px;
-	width: 150px;
+	width: 150px;*/
 	outline: none;
 	margin-bottom: 0;
 }
@@ -451,9 +451,9 @@ button.button-error {
 	}
 
 	button.button-error {
-		background: url('../img/btn-download-sml-on.png') transparent;
+		/*background: url('../img/btn-download-sml-on.png') transparent;
 		height: 67px;
-		width: 199px;
+		width: 199px;*/
 		outline: none;
 		margin-bottom: 0;
 	}
