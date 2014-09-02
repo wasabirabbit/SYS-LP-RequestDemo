@@ -54,7 +54,9 @@ p {
 .text-orange {
 	color: #F26C21;
 }
-
+.bg-orange {
+	background-color: #F26C21;
+}
 .bg-white {
 	background-color: #ffffff;
 }
@@ -88,6 +90,17 @@ p {
 	height: 300px;
 	max-width: none;
 }
+
+.columns.special {
+	position: inherit;
+	height: 485px;
+}
+#imacImg2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 #submitBtn {
 	color: #F26C21;
 	text-transform: uppercase;
@@ -102,9 +115,16 @@ p {
 	border: 1px solid #ffffff;
 }
 
+#backtosys:hover {
+	background-color: #e3651f !important;
+}
 .row {
 	/*margin-left: 8%;*/
 	height: 100%;
+}
+.row.a-h {
+	height: auto;
+	position: relative;
 }
 
 #lrg-logo {
