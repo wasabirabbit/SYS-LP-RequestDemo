@@ -57,6 +57,13 @@ p {
 .d-t {
 	display: table;
 }
+.nopadding {
+	padding: 0;
+}
+.nomargin {
+	margin: 0;
+}
+
 
 #formHolder {
 	min-height: 100%;
