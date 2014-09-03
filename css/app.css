@@ -13,10 +13,11 @@ body {
 }
 
 h1 {
-   font-family: 'futura-pt', Helvetica, Arial, sans-serif;
    font-size: 1.4em;
-   font-weight: 500;
    color:#FFFFFF;
+   font-family: "futura-pt", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
 }
 
 p {
