@@ -19,6 +19,10 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 }
+h1.normal {
+	line-height: normal;
+	font-size: 2.75rem;
+}
 
 p {
    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
